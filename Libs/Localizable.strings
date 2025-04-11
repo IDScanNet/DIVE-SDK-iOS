@@ -47,10 +47,11 @@
 "IDScanCaptureDocumentGreenCardOrEmploymentAuthorizationName" = "Green Card or Employment Authorization";
 "IDScanCaptureDocumentInternationalIDName" = "International ID";
 
-"IDScanCaptureRealFaceFront1Hint" = "Please, look at the camera";
-"IDScanCaptureRealFaceFront2Hint" = "Face the camera";
+"IDScanCaptureRealFaceFrontFirstHint" = "Please, look at the camera";
+"IDScanCaptureRealFaceFrontLastHint" = "Face the camera";
 "IDScanCaptureRealFaceTurnRightHint" = "Turn your head to the Right";
 "IDScanCaptureRealFaceTurnLeftHint" = "Turn your head to the Left";
+"IDScanCaptureRealFaceSmileHint" = "Please Smile";
 
 "IDScanCaptureScanningFrontHint" = "Scan the front side of the %@";
 "IDScanCaptureUploadingFrontHint" = "Upload the front side of the %@";
