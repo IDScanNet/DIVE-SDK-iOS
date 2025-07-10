@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/IDScanNet/IDScanIDDetectorIOS.git",
         "state": {
           "branch": null,
-          "revision": "d8df86680be00fbab065d5568b26ce0252fc5a77",
-          "version": "1.231002.2"
+          "revision": "62f1cdcefc509bc8951627a64b722c272a5167a5",
+          "version": "1.250708.1"
         }
       },
       {
@@ -15,8 +15,8 @@
         "repositoryURL": "https://github.com/IDScanNet/IDScanToolsIOS.git",
         "state": {
           "branch": null,
-          "revision": "f80c25fb371e522e4e40ee0c2e26c640d8ae5912",
-          "version": "1.240213.2"
+          "revision": "8fd7e15f32f534c47ade23216937d940e454d9da",
+          "version": "2.250411.1"
         }
       },
       {
