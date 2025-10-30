@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name IDScanCapture
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import ARKit
 import Accelerate
 import AudioToolbox
@@ -48,15 +48,20 @@ public struct IDScanIDCaptureResult {
 }
 public enum IDScanIDCaptureError : Foundation.LocalizedError {
   case configIsInvalid(error: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
+  #endif
 }
 public protocol IDScanIDCaptureDelegate : AnyObject {
   func idCaptureResult(sdk: IDScanCapture.IDScanIDCapture, result: IDScanCapture.IDScanIDCaptureResult)
   func idCaptureError(sdk: IDScanCapture.IDScanIDCapture, error: any Swift.Error)
 }
 public class IDScanIDCapture {
+  public static var version: Swift.String {
+    get
+  }
   public var vibroFeedback: Swift.Bool {
     get
     set
@@ -66,7 +71,9 @@ public class IDScanIDCapture {
     set
   }
   public init(delegate: any IDScanCapture.IDScanIDCaptureDelegate, configuration: [Swift.String : Any], theme: IDScanCapture.IDScanIDCaptureTheme = .init())
+  #if compiler(>=5.3) && $NonescapableTypes
   public func start(from rootVC: UIKit.UIViewController, contentInset: UIKit.UIEdgeInsets? = nil)
+  #endif
   public func close()
   @objc deinit
 }
