@@ -1841,6 +1841,51 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TensorFlowLite",
+        "printedName": "TensorFlowLite",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMedia",
+        "printedName": "CoreMedia",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture"
+      },
+      {
+        "kind": "Import",
+        "name": "Accelerate",
+        "printedName": "Accelerate",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreImage",
+        "printedName": "CoreImage",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1901,35 +1946,35 @@
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 14803,
+      "offset": 14869,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 14843,
+      "offset": 14909,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 14952,
+      "offset": 15018,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 15008,
+      "offset": 15074,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 15303,
+      "offset": 15369,
       "length": 5,
       "value": "false"
     },
@@ -2382,70 +2427,70 @@
       "value": "2"
     },
     {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceAntiSpoofingDetector\/IDScanFaceAntiSpoofingDetector.swift",
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanFaceAntiSpoofingDetector\/IDScanFaceAntiSpoofingDetector.swift",
       "kind": "StringLiteral",
       "offset": 364,
       "length": 13,
       "value": "\"faceasmodel\""
     },
     {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceAntiSpoofingDetector\/IDScanFaceAntiSpoofingDetector.swift",
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanFaceAntiSpoofingDetector\/IDScanFaceAntiSpoofingDetector.swift",
       "kind": "IntegerLiteral",
       "offset": 420,
       "length": 3,
       "value": "900"
     },
     {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceAntiSpoofingDetector\/IDScanFaceAntiSpoofingDetector.swift",
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanFaceAntiSpoofingDetector\/IDScanFaceAntiSpoofingDetector.swift",
       "kind": "IntegerLiteral",
       "offset": 433,
       "length": 3,
       "value": "900"
     },
     {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceAntiSpoofingDetector\/IDScanFaceAntiSpoofingDetector.swift",
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanFaceAntiSpoofingDetector\/IDScanFaceAntiSpoofingDetector.swift",
       "kind": "FloatLiteral",
       "offset": 465,
       "length": 3,
       "value": "0.3"
     },
     {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceAntiSpoofingDetector\/IDScanFaceAntiSpoofingDetector.swift",
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanFaceAntiSpoofingDetector\/IDScanFaceAntiSpoofingDetector.swift",
       "kind": "BooleanLiteral",
       "offset": 489,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceAntiSpoofingDetector\/IDScanFaceAntiSpoofingDetector.swift",
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanFaceAntiSpoofingDetector\/IDScanFaceAntiSpoofingDetector.swift",
       "kind": "StringLiteral",
       "offset": 670,
       "length": 8,
       "value": "\"tflite\""
     },
     {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceAntiSpoofingDetector\/IDScanFaceAntiSpoofingDetector.swift",
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanFaceAntiSpoofingDetector\/IDScanFaceAntiSpoofingDetector.swift",
       "kind": "StringLiteral",
       "offset": 750,
       "length": 112,
       "value": "\"IDScanFaceAntiSpoofingDetector: Failed to load the model file with name: \""
     },
     {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceAntiSpoofingDetector\/IDScanFaceAntiSpoofingDetector.swift",
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanFaceAntiSpoofingDetector\/IDScanFaceAntiSpoofingDetector.swift",
       "kind": "StringLiteral",
       "offset": 860,
       "length": 1,
       "value": "\".\""
     },
     {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceAntiSpoofingDetector\/IDScanFaceAntiSpoofingDetector.swift",
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanFaceAntiSpoofingDetector\/IDScanFaceAntiSpoofingDetector.swift",
       "kind": "StringLiteral",
       "offset": 1394,
       "length": 108,
       "value": "\"IDScanFaceAntiSpoofingDetector: Failed to create the interpreter with error: \""
     },
     {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceAntiSpoofingDetector\/IDScanFaceAntiSpoofingDetector.swift",
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanFaceAntiSpoofingDetector\/IDScanFaceAntiSpoofingDetector.swift",
       "kind": "StringLiteral",
       "offset": 1501,
       "length": 2,
@@ -2503,131 +2548,152 @@
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 165,
+      "offset": 168,
       "length": 4,
       "value": "\"ID\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 196,
+      "offset": 204,
+      "length": 4,
+      "value": "\"DL\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 245,
+      "length": 4,
+      "value": "\"IC\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 276,
       "length": 10,
       "value": "\"Passport\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 237,
+      "offset": 317,
       "length": 14,
       "value": "\"PassportCard\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 279,
+      "offset": 359,
       "length": 11,
       "value": "\"GreenCard\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 324,
+      "offset": 412,
+      "length": 25,
+      "value": "\"EmploymentAuthorization\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 471,
       "length": 17,
       "value": "\"InternationalId\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 398,
+      "offset": 545,
       "length": 11,
       "value": "\"BACKS_MRZ\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 425,
+      "offset": 572,
       "length": 11,
       "value": "\"BACKS_PDF\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 455,
+      "offset": 602,
       "length": 14,
       "value": "\"BACKS_MRZPDF\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 492,
+      "offset": 639,
       "length": 10,
       "value": "\"BACKS_NO\""
     },
     {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
       "kind": "StringLiteral",
       "offset": 337,
       "length": 11,
       "value": "\"typemodel\""
     },
     {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
       "kind": "IntegerLiteral",
       "offset": 391,
       "length": 3,
       "value": "320"
     },
     {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
       "kind": "IntegerLiteral",
       "offset": 404,
       "length": 3,
       "value": "224"
     },
     {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
       "kind": "FloatLiteral",
       "offset": 436,
       "length": 3,
       "value": "0.7"
     },
     {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
       "kind": "BooleanLiteral",
       "offset": 460,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
       "kind": "StringLiteral",
       "offset": 641,
       "length": 8,
       "value": "\"tflite\""
     },
     {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
       "kind": "StringLiteral",
       "offset": 721,
       "length": 103,
       "value": "\"IDScanDocTypeDetector: Failed to load the model file with name: \""
     },
     {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
       "kind": "StringLiteral",
       "offset": 822,
       "length": 1,
       "value": "\".\""
     },
     {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
       "kind": "StringLiteral",
       "offset": 1356,
       "length": 99,
       "value": "\"IDScanDocTypeDetector: Failed to create the interpreter with error: \""
     },
     {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanDocTypeDetector\/IDScanDocTypeDetector.swift",
       "kind": "StringLiteral",
       "offset": 1454,
       "length": 2,
@@ -3087,6 +3153,90 @@
       "offset": 23228,
       "length": 1,
       "value": "3"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanBlurDetector\/IDScanBlurDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 328,
+      "length": 11,
+      "value": "\"blurmodel\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanBlurDetector\/IDScanBlurDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 382,
+      "length": 3,
+      "value": "896"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanBlurDetector\/IDScanBlurDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 395,
+      "length": 3,
+      "value": "512"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanBlurDetector\/IDScanBlurDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 437,
+      "length": 3,
+      "value": "128"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanBlurDetector\/IDScanBlurDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 495,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanBlurDetector\/IDScanBlurDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 680,
+      "length": 8,
+      "value": "\"tflite\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanBlurDetector\/IDScanBlurDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 760,
+      "length": 100,
+      "value": "\"IDScanBlurDetector: Failed to load the model file with name: \""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanBlurDetector\/IDScanBlurDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 858,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanBlurDetector\/IDScanBlurDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 992,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanBlurDetector\/IDScanBlurDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 1390,
+      "length": 96,
+      "value": "\"IDScanBlurDetector: Failed to create the interpreter with error: \""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanBlurDetector\/IDScanBlurDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 1485,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanBlurDetector\/IDScanBlurDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 1584,
+      "length": 3,
+      "value": "0.6"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/DocumentSteps_VC.swift",

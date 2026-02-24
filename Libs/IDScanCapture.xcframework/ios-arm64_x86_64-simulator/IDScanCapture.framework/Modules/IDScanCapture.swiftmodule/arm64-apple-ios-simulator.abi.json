@@ -103,6 +103,30 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreImage",
+        "printedName": "CoreImage",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMedia",
+        "printedName": "CoreMedia",
+        "declKind": "Import",
+        "moduleName": "IDScanCapture"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1859,35 +1883,42 @@
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 14803,
+      "offset": 14869,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 14843,
+      "offset": 14909,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 14952,
+      "offset": 15018,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 15008,
+      "offset": 15074,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/FlowManagerImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 15303,
+      "offset": 15369,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanBlurDetector\/IDScanBlurDetectorSimulator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 263,
       "length": 5,
       "value": "false"
     },
@@ -1899,7 +1930,7 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanDocTypeDetector\/IDScanDocTypeDetectorSimulator.swift",
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanDocTypeDetector\/IDScanDocTypeDetectorSimulator.swift",
       "kind": "BooleanLiteral",
       "offset": 290,
       "length": 5,
@@ -2032,7 +2063,7 @@
       "value": "2"
     },
     {
-      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanFaceAntiSpoofingDetector\/IDScanFaceAntiSpoofingDetectorSimulator.swift",
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/Libs\/IDScanFaceAntiSpoofingDetector\/IDScanFaceAntiSpoofingDetectorSimulator.swift",
       "kind": "BooleanLiteral",
       "offset": 299,
       "length": 5,
@@ -2405,63 +2436,84 @@
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 165,
+      "offset": 168,
       "length": 4,
       "value": "\"ID\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 196,
+      "offset": 204,
+      "length": 4,
+      "value": "\"DL\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 245,
+      "length": 4,
+      "value": "\"IC\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 276,
       "length": 10,
       "value": "\"Passport\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 237,
+      "offset": 317,
       "length": 14,
       "value": "\"PassportCard\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 279,
+      "offset": 359,
       "length": 11,
       "value": "\"GreenCard\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 324,
+      "offset": 412,
+      "length": 25,
+      "value": "\"EmploymentAuthorization\""
+    },
+    {
+      "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Document.swift",
+      "kind": "StringLiteral",
+      "offset": 471,
       "length": 17,
       "value": "\"InternationalId\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 398,
+      "offset": 545,
       "length": 11,
       "value": "\"BACKS_MRZ\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 425,
+      "offset": 572,
       "length": 11,
       "value": "\"BACKS_PDF\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 455,
+      "offset": 602,
       "length": 14,
       "value": "\"BACKS_MRZPDF\""
     },
     {
       "filePath": "\/Users\/akorotkov\/Documents\/DIVE_SDK\/IDScanCapture\/IDScanCapture\/Document.swift",
       "kind": "StringLiteral",
-      "offset": 492,
+      "offset": 639,
       "length": 10,
       "value": "\"BACKS_NO\""
     },
