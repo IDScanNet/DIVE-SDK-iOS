@@ -42,9 +42,11 @@
 "IDScanCaptureErrorAlertTitle" = "Error";
 
 "IDScanCaptureDocumentDriverLicenseName" = "Driver’s License";
+"IDScanCaptureDocumentIdentificationCardName" = "Identification Card";
 "IDScanCaptureDocumentPassportName" = "Passport";
 "IDScanCaptureDocumentPassportCardName" = "Passport Card";
-"IDScanCaptureDocumentGreenCardOrEmploymentAuthorizationName" = "Green Card or Employment Authorization";
+"IDScanCaptureDocumentGreenCard" = "Green Card";
+"IDScanCaptureDocumentEmploymentAuthorizationName" = "Employment Authorization";
 "IDScanCaptureDocumentInternationalIDName" = "International ID";
 
 "IDScanCaptureRealFaceFrontFirstHint" = "Please, look at the camera";
