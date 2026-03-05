@@ -105,7 +105,7 @@ Once you are logged in to the DIVE Online Web Portal create both secret and publ
 Create `your_integration_id` in [Bundles page](https://diveonline.idscan.net/bundles) of the DIVE Online portal
 click `+ Add Bundle` named it and click `add`. Use `Token` from Bundles table as `your_integration_id`
 
-### Initialization
+## Initialization
 
 ```swift
 DIVEOnlineSDK(applicantID: String,
@@ -131,7 +131,33 @@ Accent Color (orange)              |  Font Size Modifier (2.0)
 
 By using the `theme` parameter, you can ensure that the SDK components integrate seamlessly with the visual style of your application.
 
-### Usage example
+## SDK Settings
+
+### Blur threshold
+You can configure the blur detection threshold used during document capture.
+```swift
+sdk.blurThreshold = 0.3
+```
+
+- Range: 0.0 – 1.0
+- Default: 0.3
+
+Higher values allow the SDK to capture more blurry images, while lower values require sharper images before auto-capture is triggered.
+Adjust this value depending on your use case and desired image quality.
+
+### SDK Logs
+You can enable SDK logs to help with debugging and tuning capture parameters.
+```swift
+sdk.logs = true
+```
+When enabled, the SDK prints detailed information to the console, including:
+- blur score of captured images
+- capture events
+- internal SDK diagnostics
+
+These logs can help determine an appropriate blurThreshold value for your use case.
+
+## Usage example
 
 ```swift
 import UIKit
@@ -187,9 +213,7 @@ class ViewController: UIViewController, DIVESDKDelegate {
 
 Using the [web portal](https://mydive.idscan.net/overview) create both public tokens, use `public tokens` in your application.
 
-### Initialization
-
-#### Swift
+## Initialization
 
 ```swift
 DIVESDK(configuration: [String : Any],
@@ -205,11 +229,11 @@ DIVESDK(configuration: [String : Any],
     - **accentColor**: `UIColor` (Swift) / `UIColor *` (Objective-C) The main color used for buttons and titles in the SDK. This should be a valid `UIColor` object. Example: `.blue` (Swift) / `[UIColor blueColor]` (Objective-C)
     - **fontSizeModifier**: `CGFloat`  A number that is added to the base font size, allowing you to adjust the overall font size within the SDK.
 
-### Configuration for `DIVESDK`
+## Configuration for `DIVESDK`
 
 The `configuration` parameter for `DIVESDK` is a dictionary that defines the settings and behaviors for the SDK. This configuration determines how the SDK captures and processes ID documents.
 
-### Configuration Options
+## Configuration Options
 
 - **autoContinue**: `Bool`
   - When set to `true`, the SDK automatically proceeds to the next step after a successful capture.
@@ -235,7 +259,7 @@ The `configuration` parameter for `DIVESDK` is a dictionary that defines the set
 - **licenseKey**: `String`
   - Your license key for using the SDK.
 
-### Document Type Configuration
+## Document Type Configuration
 
 Each document type in the `documentTypes` array is a dictionary with the following fields:
 
@@ -243,7 +267,7 @@ Each document type in the `documentTypes` array is a dictionary with the followi
   - Indicates whether the document type is active and should be processed.
 
 - **type**: `String`
-  - The type of document (e.g., `ID`, `Passport`, `PassportCard`, `GreenCard`, `InternationalId`).
+  - The type of document (e.g., `DL`, `Passport`, `PassportCard`, `GreenCard`, `InternationalId`).
 
 - **steps**: `Array<Dictionary>`
   - An array of steps required to capture the document. Each step is a dictionary with the following fields:
@@ -254,7 +278,7 @@ Each document type in the `documentTypes` array is a dictionary with the followi
     - **mode**: `Dictionary`
       - Specifies the modes available for capturing the step. Possible modes include `uploader` and `video`.
 
-### Example Configuration
+## Example Configuration
 
 ```swift
 let configuration: [String: Any] = [
@@ -266,7 +290,7 @@ let configuration: [String: Any] = [
             "documentTypes": [
                 [
                     "isActive": true,
-                    "type": "ID",
+                    "type": "DL",
                     "steps": [
                         [
                             "type": "front",
@@ -305,12 +329,12 @@ If these keys are not present, follow these steps
 - Share your application's bundle id with IDScan.net support
 - IDScan.net support will then share with you a license key
 
-#### `DIVESDK` Methods
+### `DIVESDK` Methods
 
 - **start(from: UIViewController)**: Starts the ID capture process.
 - **close()**: Closes the ID capture process.
 
-### Usage example
+## Usage example
 
 ```swift
 import UIKit

@@ -66,6 +66,10 @@ public class IDScanIDCapture {
     get
     set
   }
+  public var blurThreshold: Swift.Double {
+    get
+    set
+  }
   public var logs: Swift.Bool {
     get
     set
