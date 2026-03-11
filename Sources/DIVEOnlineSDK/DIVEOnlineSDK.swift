@@ -28,6 +28,11 @@ import IDSLocationManager
             self.captureSDK?.vibroFeedback = self.vibroFeedback
         }
     }
+    @objc public var blurThreshold = 0.3 {
+        didSet {
+            self.captureSDK?.blurThreshold = self.blurThreshold
+        }
+    }
     @objc public var logs = false {
         didSet {
             self.captureSDK?.logs = self.logs

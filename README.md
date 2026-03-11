@@ -172,7 +172,7 @@ class ViewController: UIViewController, DIVESDKDelegate {
         sdk = DIVEOnlineSDK(applicantID: "your_applicant_id",
                             integrationID: "your_integration_id",
                             token: "your_public_token",
-                            baseURL: "https://stage.api-diveonline.idscan.net/api/v2",
+                            baseURL: "https://api-diveonline.idscan.net/api/v2",
                             delegate: strongSelf,
                             theme: .init(accentColor: .green, fontSizeModifier: 5))
 
