@@ -337,6 +337,32 @@ SWIFT_CLASS("_TtC13IDScanCapture11ImagePicker")
 - (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<UIImagePickerControllerInfoKey, id> * _Nonnull)info;
 @end
 
+@class UIColor;
+/// Activity indicator view with nice animations
+SWIFT_CLASS("_TtC13IDScanCapture23NVActivityIndicatorView")
+@interface NVActivityIndicatorView : UIView
+/// Color of activity indicator view.
+@property (nonatomic, strong) IBInspectable UIColor * _Nonnull color;
+/// Padding of activity indicator view.
+@property (nonatomic) IBInspectable CGFloat padding;
+/// Returns an object initialized from data in a given unarchiver.
+/// self, initialized using the data in decoder.
+/// \param decoder an unarchiver object.
+///
+///
+/// returns:
+/// self, initialized using the data in decoder.
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+/// Returns the natural size for the receiving view, considering only properties of the view itself.
+/// A size indicating the natural size for the receiving view based on its intrinsic properties.
+///
+/// returns:
+/// A size indicating the natural size for the receiving view based on its intrinsic properties.
+@property (nonatomic, readonly) CGSize intrinsicContentSize;
+@property (nonatomic) CGRect bounds;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
 SWIFT_CLASS("_TtC13IDScanCapture13TextToastView")
 @interface TextToastView : UIStackView
 - (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;

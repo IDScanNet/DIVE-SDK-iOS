@@ -11,6 +11,7 @@ import DeveloperToolsSupport
 import Foundation
 import IDScanMRZDetector
 import IDScanPDFDetector
+import QuartzCore
 import Swift
 import SwiftUI
 
@@ -21,6 +22,94 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 public struct CaptureConfiguration {
   public init(json: [Swift.String : Any])
+}
+public enum NVActivityIndicatorType : Swift.CaseIterable {
+  case blank
+  case ballPulse
+  case ballGridPulse
+  case ballClipRotate
+  case squareSpin
+  case ballClipRotatePulse
+  case ballClipRotateMultiple
+  case ballPulseRise
+  case ballRotate
+  case cubeTransition
+  case ballZigZag
+  case ballZigZagDeflect
+  case ballTrianglePath
+  case ballScale
+  case lineScale
+  case lineScaleParty
+  case ballScaleMultiple
+  case ballPulseSync
+  case ballBeat
+  case ballDoubleBounce
+  case lineScalePulseOut
+  case lineScalePulseOutRapid
+  case ballScaleRipple
+  case ballScaleRippleMultiple
+  case ballSpinFadeLoader
+  case lineSpinFadeLoader
+  case triangleSkewSpin
+  case pacman
+  case ballGridBeat
+  case semiCircleSpin
+  case ballRotateChase
+  case orbit
+  case audioEqualizer
+  case circleStrokeSpin
+  public static func == (a: IDScanCapture.NVActivityIndicatorType, b: IDScanCapture.NVActivityIndicatorType) -> Swift.Bool
+  public typealias AllCases = [IDScanCapture.NVActivityIndicatorType]
+  nonisolated public static var allCases: [IDScanCapture.NVActivityIndicatorType] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public typealias FadeInAnimation = (UIKit.UIView) -> Swift.Void
+public typealias FadeOutAnimation = (UIKit.UIView, @escaping () -> Swift.Void) -> Swift.Void
+@objc @_Concurrency.MainActor @preconcurrency final public class NVActivityIndicatorView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public static var DEFAULT_TYPE: IDScanCapture.NVActivityIndicatorType
+  @_Concurrency.MainActor @preconcurrency public static var DEFAULT_COLOR: UIKit.UIColor
+  @_Concurrency.MainActor @preconcurrency public static var DEFAULT_TEXT_COLOR: UIKit.UIColor
+  @_Concurrency.MainActor @preconcurrency public static var DEFAULT_PADDING: CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency public static var DEFAULT_BLOCKER_SIZE: CoreFoundation.CGSize
+  @_Concurrency.MainActor @preconcurrency public static var DEFAULT_BLOCKER_DISPLAY_TIME_THRESHOLD: Swift.Int
+  @_Concurrency.MainActor @preconcurrency public static var DEFAULT_BLOCKER_MINIMUM_DISPLAY_TIME: Swift.Int
+  @_Concurrency.MainActor @preconcurrency public static var DEFAULT_BLOCKER_MESSAGE: Swift.String?
+  @_Concurrency.MainActor @preconcurrency public static var DEFAULT_BLOCKER_MESSAGE_SPACING: CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency public static var DEFAULT_BLOCKER_MESSAGE_FONT: UIKit.UIFont
+  @_Concurrency.MainActor @preconcurrency public static var DEFAULT_BLOCKER_BACKGROUND_COLOR: UIKit.UIColor
+  @_Concurrency.MainActor @preconcurrency public static var DEFAULT_FADE_IN_ANIMATION: (_ view: UIKit.UIView) -> Swift.Void
+  @_Concurrency.MainActor @preconcurrency public static var DEFAULT_FADE_OUT_ANIMATION: (_ view: UIKit.UIView, _ complete: @escaping () -> Swift.Void) -> Swift.Void
+  @_Concurrency.MainActor @preconcurrency final public var type: IDScanCapture.NVActivityIndicatorType
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency final public var color: UIKit.UIColor
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency final public var padding: CoreFoundation.CGFloat
+  @available(*, deprecated)
+  @_Concurrency.MainActor @preconcurrency final public var animating: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency final public var isAnimating: Swift.Bool {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public init(frame: CoreFoundation.CGRect, type: IDScanCapture.NVActivityIndicatorType? = nil, color: UIKit.UIColor? = nil, padding: CoreFoundation.CGFloat? = nil)
+  #endif
+  @_Concurrency.MainActor @preconcurrency @objc override final public var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override final public var bounds: CoreFoundation.CGRect {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency final public func startAnimating()
+  @_Concurrency.MainActor @preconcurrency final public func stopAnimating()
+  @objc deinit
 }
 public struct IDScanIDCaptureTheme {
   public let accentColor: UIKit.UIColor
@@ -233,4 +322,6 @@ public class IDScanIDCapture {
   public func close()
   @objc deinit
 }
+extension IDScanCapture.NVActivityIndicatorType : Swift.Equatable {}
+extension IDScanCapture.NVActivityIndicatorType : Swift.Hashable {}
 extension IDScanCapture.Toast.DismissSwipeDirection : Swift.Hashable {}
