@@ -426,3 +426,24 @@ Listed below are the possible values and descriptions:
 
 > [!NOTE]
 > `expired` - does not influence the final decision with respect to the validity of the document and only serves as a guideline.
+
+## App Store Review Note (TrueDepth / ARKit)
+
+The DIVE SDK may include usage of **ARKit / TrueDepth APIs** depending on the configuration provided to the SDK.
+
+TrueDepth is used exclusively for **liveness detection (RealFace)** to verify that a real person is present during the capture process. This helps prevent spoofing attempts (e.g. photos, videos, or masks).
+
+- The feature is **only activated when explicitly enabled in the SDK configuration**
+- No biometric data is stored or transmitted
+- No face data is collected, saved, or used for identification purposes
+- All processing is performed **in real time on the device**
+
+If your application does not enable this functionality, the TrueDepth APIs are not used at runtime.
+
+### Suggested response to Apple (if needed)
+
+You can use the following explanation when replying in App Store Connect:
+
+> Our app uses ARKit / TrueDepth APIs solely for real-time liveness detection (RealFace) to ensure that a real person is present during identity verification.
+>
+> This feature is only enabled in specific configurations and is not used otherwise. No biometric data is collected, stored, or transmitted. All processing is performed on-device and only used to prevent spoofing attempts such as photos or videos.
