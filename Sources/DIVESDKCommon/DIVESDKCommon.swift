@@ -30,15 +30,13 @@ public typealias DIVESDKResult = Result<[String : Any], Error>
     public let faceImage: UIImage?
     public let trackString: String?
     public let documentType: Int
-    public let realFaceMode: Bool
     
-    public init(frontImage: UIImage? = nil, backImage: UIImage? = nil, faceImage: UIImage? = nil, trackString: String? = nil, documentType: Int, realFaceMode: Bool) {
+    public init(frontImage: UIImage? = nil, backImage: UIImage? = nil, faceImage: UIImage? = nil, trackString: String? = nil, documentType: Int) {
         self.frontImage = frontImage
         self.backImage = backImage
         self.faceImage = faceImage
         self.trackString = trackString
         self.documentType = documentType
-        self.realFaceMode = realFaceMode
     }
 }
 

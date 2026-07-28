@@ -172,7 +172,7 @@ import IDSLocationManager
     // MARK: - IDScanIDCaptureDelegate
     
     public func idCaptureResult(sdk: IDScanIDCapture, result: IDScanIDCaptureResult) {
-        let data = DIVESDKData(frontImage: result.frontImage, backImage: result.backImage, faceImage: result.faceImage, trackString: result.trackString, documentType: result.documentType, realFaceMode: result.realFaceMode)
+        let data = DIVESDKData(frontImage: result.frontImage, backImage: result.backImage, faceImage: result.faceImage, trackString: result.trackString, documentType: result.documentType)
         self.delegate?.diveSDKDataPrepaired(sdk: self, data: data)
     }
     
