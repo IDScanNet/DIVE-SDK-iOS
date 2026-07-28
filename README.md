@@ -243,15 +243,15 @@ The `configuration` parameter for `DIVESDK` is a dictionary that defines the set
  
 - **autoSubmit**: `Bool`
   - Allows you to submit captured data immediately without explicitly pressing the Submit button on the Summary Screen.
-
-- **realFaceMode**: `String`
-  - realFaceMode (string) - an option that enables advanced image capturing with volumetric face detection. Available values: 'auto', 'all', 'none'.
-    auto - enable "realFaceMode" only for iPhones
-    all - enable "realFaceMode" for all devices
-    none - disable this option
+ 
+- **showSubmitBtn**: `Bool`
+  - Option to show the button `submit` after capturing all the images. If the button is turned off, an event will automatically fire that triggers the submit event handler. Default: true.
+ 
+- **resizeUploadedImage**: `integer`
+  - Sets the maximum size in pixels (of the larger of the height or width) for a manually uploaded picture. Default: -1.
 
 - **isShowDocumentTypeSelect**: `Bool`
-  - if only one document type is configured in the documentTypes array AND this setting is set to false the document type dialog will not be displayed to the end user. Default: true.
+  - If only one document type is configured in the documentTypes array AND this setting is set to false the document type dialog will not be displayed to the end user. Default: true.
 
 - **documentTypes**: `Array<Dictionary>`
   - Defines the types of documents that the SDK should recognize and process. Each document type can have multiple steps for capturing different parts of the document.
@@ -268,6 +268,9 @@ Each document type in the `documentTypes` array is a dictionary with the followi
 
 - **type**: `String`
   - The type of document (e.g., `DL`, `Passport`, `PassportCard`, `GreenCard`, `InternationalId`).
+ 
+- **tooltipText**: `String`
+  - This field can be used to provide custom help text for the document type. If set, an info button appears next to the document in the document type list; tapping it shows an alert with this text.
 
 - **steps**: `Array<Dictionary>`
   - An array of steps required to capture the document. Each step is a dictionary with the following fields:
