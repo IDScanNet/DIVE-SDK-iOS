@@ -269,7 +269,7 @@ Each document type in the `documentTypes` array is a dictionary with the followi
   - Indicates whether the document type is active and should be processed.
 
 - **type**: `String`
-  - The type of document (e.g., `DL`, `Passport`, `PassportCard`, `GreenCard`, `InternationalId`).
+  - The type of document (e.g., `DL`, `IC`, `Passport`, `PassportCard`, `GreenCard`, `EmploymentAuthorization`, `InternationalId`).
  
 - **tooltipText**: `String`
   - This field can be used to provide custom help text for the document type. If set, an info button appears next to the document in the document type list; tapping it shows an alert with this text.
