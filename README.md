@@ -249,6 +249,12 @@ The `configuration` parameter for `DIVESDK` is a dictionary that defines the set
 - **showSubmitBtn**: `Bool`
   - Option to show the button `submit` after capturing all the images. If the button is turned off, an event will automatically fire that triggers the submit event handler. Default: true.
  
+- **allowSubmitWithWarnings**: `Bool`
+  - Option to allow submissions to be made even when a step's collected image has generated a warning. Default: false.
+ 
+- **autocaptureConfidence**: `Float`
+  - This option allows the user to change the autocapture prediction filter confidence. Default: 0.8.
+ 
 - **resizeUploadedImage**: `integer`
   - Sets the maximum size in pixels (of the larger of the height or width) for a manually uploaded picture. Default: -1.
 
