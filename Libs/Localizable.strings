@@ -40,6 +40,9 @@
 "IDScanCaptureSubmitWithWarningsAlertTitle" = "Submission Blocked";
 "IDScanCaptureSubmitWithWarningsAlertMessage" = "This session has warnings and the current configuration does not allow submission with warnings. Please resolve the warnings before submitting.";
 
+"IDScanCaptureNotDetectedWarningAlertTitle" = "Document Not Detected";
+"IDScanCaptureNotDetectedWarningAlertMessage" = "No document was detected in the selected photo. It will still be used, but please make sure it's clear and shows the full document to avoid issues during verification.";
+
 "IDScanCaptureResetAlertTitle" = "Reset All Steps";
 "IDScanCaptureResetAlertMessage" = "Are you sure you want to reset all steps?";
 "IDScanCaptureErrorAlertTitle" = "Error";
