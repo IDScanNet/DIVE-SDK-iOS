@@ -35,7 +35,7 @@
 "IDScanCaptureSuccess" = "Success";
 
 "IDScanCaptureCancelAlertTitle" = "Cancellation";
-"IDScanCaptureCancelAlertMessage" = "Are you sure? All steps will be reset?";
+"IDScanCaptureCancelAlertMessage" = "Are you sure? All steps will be reset.";
 
 "IDScanCaptureSubmitWithWarningsAlertTitle" = "Submission Blocked";
 "IDScanCaptureSubmitWithWarningsAlertMessage" = "This session has warnings and the current configuration does not allow submission with warnings. Please resolve the warnings before submitting.";
