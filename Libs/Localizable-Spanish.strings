@@ -5,76 +5,79 @@
   
 */
 
-"IDScanCaptureDocumentListTitle" = "ID Validation";
-"IDScanCaptureDocumentListSectionHeader" = "Select document type";
+"IDScanCaptureDocumentListTitle" = "Validación de identidad";
+"IDScanCaptureDocumentListSectionHeader" = "Seleccione el tipo de documento";
 
-"IDScanCaptureDocumentStepsTitle" = "ID Validation";
-"IDScanCaptureDocumentStepsTypeSectionHeader" = "Document type";
-"IDScanCaptureDocumentStepsStepsSectionHeader" = "Steps";
-"IDScanCaptureDocumentStepsStepCellStepNumber" = "Step";
-"IDScanCaptureDocumentStepsStepCellStepComplete" = "Complete";
+"IDScanCaptureDocumentStepsTitle" = "Validación de identidad";
+"IDScanCaptureDocumentStepsTypeSectionHeader" = "Tipo de documento";
+"IDScanCaptureDocumentStepsStepsSectionHeader" = "Pasos";
+"IDScanCaptureDocumentStepsStepCellStepNumber" = "Paso";
+"IDScanCaptureDocumentStepsStepCellStepComplete" = "Completado";
 
-"IDScanCaptureStepPreviewTitle" = "Step preview";
+"IDScanCaptureStepPreviewTitle" = "Vista previa del paso";
 
-"IDScanCaptureSubmitButton" = "Submit";
-"IDScanCaptureContinueButton" = "Continue";
-"IDScanCaptureStartButton" = "→  Start";
-"IDScanCaptureAddPhotoButton" = "Add Photo";
-"IDScanCaptureNextStepButton" = "Next Step";
-"IDScanCaptureCompleteButton" = "Complete";
-"IDScanCaptureBackButton" = "Back";
-"IDScanCaptureResetStepsButton" = "Reset All";
-"IDScanCaptureRetakeButton" = "Retake";
+"IDScanCaptureSubmitButton" = "Enviar";
+"IDScanCaptureContinueButton" = "Continuar";
+"IDScanCaptureStartButton" = "→  Comenzar";
+"IDScanCaptureAddPhotoButton" = "Agregar foto";
+"IDScanCaptureNextStepButton" = "Siguiente paso";
+"IDScanCaptureCompleteButton" = "Completar";
+"IDScanCaptureBackButton" = "Atrás";
+"IDScanCaptureResetStepsButton" = "Restablecer todo";
+"IDScanCaptureRetakeButton" = "Repetir";
 
-"IDScanCaptureModeCamera" = "Camera";
+"IDScanCaptureModeCamera" = "Cámara";
 "IDScanCaptureModeManual" = "Manual";
 
-"IDScanCaptureYes" = "Yes";
+"IDScanCaptureYes" = "Sí";
 "IDScanCaptureNo" = "No";
-"IDScanCaptureCancel" = "Cancel";
-"IDScanCaptureSuccess" = "Success";
+"IDScanCaptureCancel" = "Cancelar";
+"IDScanCaptureSuccess" = "Éxito";
 
-"IDScanCaptureCancelAlertTitle" = "Cancellation";
-"IDScanCaptureCancelAlertMessage" = "Are you sure? All steps will be reset?";
+"IDScanCaptureCancelAlertTitle" = "Cancelación";
+"IDScanCaptureCancelAlertMessage" = "¿Está seguro? Se restablecerán todos los pasos.";
 
-"IDScanCaptureResetAlertTitle" = "Reset All Steps";
-"IDScanCaptureResetAlertMessage" = "Are you sure you want to reset all steps?";
+"IDScanCaptureSubmitWithWarningsAlertTitle" = "Envío bloqueado";
+"IDScanCaptureSubmitWithWarningsAlertMessage" = "Esta sesión tiene advertencias y la configuración actual no permite el envío con advertencias. Por favor, resuelva las advertencias antes de enviar.";
+
+"IDScanCaptureResetAlertTitle" = "Restablecer todos los pasos";
+"IDScanCaptureResetAlertMessage" = "¿Está seguro de que desea restablecer todos los pasos?";
 "IDScanCaptureErrorAlertTitle" = "Error";
 
-"IDScanCaptureDocumentDriverLicenseName" = "Driver’s License";
-"IDScanCaptureDocumentIdentificationCardName" = "Identification Card";
-"IDScanCaptureDocumentPassportName" = "Passport";
-"IDScanCaptureDocumentPassportCardName" = "Passport Card";
-"IDScanCaptureDocumentGreenCard" = "Green Card";
-"IDScanCaptureDocumentEmploymentAuthorizationName" = "Employment Authorization";
-"IDScanCaptureDocumentInternationalIDName" = "International ID";
+"IDScanCaptureDocumentDriverLicenseName" = "Licencia de conducir";
+"IDScanCaptureDocumentIdentificationCardName" = "Tarjeta de identificación";
+"IDScanCaptureDocumentPassportName" = "Pasaporte";
+"IDScanCaptureDocumentPassportCardName" = "Tarjeta de pasaporte";
+"IDScanCaptureDocumentGreenCard" = "Tarjeta verde";
+"IDScanCaptureDocumentEmploymentAuthorizationName" = "Autorización de empleo";
+"IDScanCaptureDocumentInternationalIDName" = "Identificación internacional";
 
-"IDScanCaptureRealFaceFrontFirstHint" = "Please, look at the camera";
-"IDScanCaptureRealFaceFrontLastHint" = "Face the camera";
-"IDScanCaptureRealFaceTurnRightHint" = "Turn your head to the Right";
-"IDScanCaptureRealFaceTurnLeftHint" = "Turn your head to the Left";
-"IDScanCaptureRealFaceSmileHint" = "Please Smile";
+"IDScanCaptureRealFaceFrontFirstHint" = "Por favor, mire a la cámara";
+"IDScanCaptureRealFaceFrontLastHint" = "Mire de frente a la cámara";
+"IDScanCaptureRealFaceTurnRightHint" = "Gire la cabeza hacia la derecha";
+"IDScanCaptureRealFaceTurnLeftHint" = "Gire la cabeza hacia la izquierda";
+"IDScanCaptureRealFaceSmileHint" = "Por favor, sonría";
 
-"IDScanCaptureScanningFrontHint" = "Scan the front side of the %@";
-"IDScanCaptureUploadingFrontHint" = "Upload the front side of the %@";
-"IDScanCaptureScanningBackHint" = "Scan the back side of the %@";
-"IDScanCaptureUploadingBackHint" = "Upload the back side of the %@";
-"IDScanCaptureScanningFaceHint" = "Scan the face";
-"IDScanCaptureUploadingFaceHint" = "Upload the face";
-"IDScanCaptureUploadingHintDescription" = "Please make sure that light glare don't obscure photo and other information";
+"IDScanCaptureScanningFrontHint" = "Escanee el lado frontal de %@";
+"IDScanCaptureUploadingFrontHint" = "Suba el lado frontal de %@";
+"IDScanCaptureScanningBackHint" = "Escanee el reverso de %@";
+"IDScanCaptureUploadingBackHint" = "Suba el reverso de %@";
+"IDScanCaptureScanningFaceHint" = "Escanee el rostro";
+"IDScanCaptureUploadingFaceHint" = "Suba una foto del rostro";
+"IDScanCaptureUploadingHintDescription" = "Asegúrese de que los reflejos de luz no oculten la foto ni otra información";
 
-"IDScanCaptureFrontStepBottomTabName" = "Front";
-"IDScanCaptureBackStepBottomTabName" = "Back";
-"IDScanCaptureFaceStepBottomTabName" = "Face";
+"IDScanCaptureFrontStepBottomTabName" = "Frente";
+"IDScanCaptureBackStepBottomTabName" = "Reverso";
+"IDScanCaptureFaceStepBottomTabName" = "Rostro";
 
-"IDScanCaptureErrorNoDocumentFront" = "The image has no documents or the document is of the wrong type";
-"IDScanCaptureErrorNoMRZ" = "The image has no MRZ or it is of poor quality";
-"IDScanCaptureErrorNoPDF" = "The image has no PDF or it is of poor quality";
-"IDScanCaptureErrorNoFace" = "The image has no Face or it is of poor quality";
-"IDScanCaptureErrorWrongLicense" = "Wrong license key";
-"IDScanCaptureErrorWrongLicenseDescription" = "License key has expired or is wrong Please contact support";
-"IDScanCaptureErrorCameraPermission" = "The %@ has not been given a permission to your camera.\n\nPlease check the Privacy Settings:\nSettings -> %@ -> Privacy -> Camera";
+"IDScanCaptureErrorNoDocumentFront" = "La imagen no contiene ningún documento o el documento es del tipo incorrecto";
+"IDScanCaptureErrorNoMRZ" = "La imagen no tiene MRZ o es de mala calidad";
+"IDScanCaptureErrorNoPDF" = "La imagen no tiene código PDF417 o es de mala calidad";
+"IDScanCaptureErrorNoFace" = "La imagen no contiene ningún rostro o es de mala calidad";
+"IDScanCaptureErrorWrongLicense" = "Clave de licencia incorrecta";
+"IDScanCaptureErrorWrongLicenseDescription" = "La clave de licencia ha caducado o es incorrecta. Por favor, contacte con soporte técnico";
+"IDScanCaptureErrorCameraPermission" = "%@ no tiene permiso para acceder a su cámara.\n\nPor favor, revise la Configuración de privacidad:\nAjustes -> %@ -> Privacidad -> Cámara";
 
-"IDScanCaptureScanningHintsNeedMoreLight" = "need more light";
-"IDScanCaptureScanningHintsTooDark" = "too dark";
-"IDScanCaptureScanningHintsDeviceMoving" = "device is moving too much";
+"IDScanCaptureScanningHintsNeedMoreLight" = "se necesita más luz";
+"IDScanCaptureScanningHintsTooDark" = "demasiado oscuro";
+"IDScanCaptureScanningHintsDeviceMoving" = "el dispositivo se mueve demasiado";
