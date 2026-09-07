@@ -40,6 +40,9 @@
 "IDScanCaptureSubmitWithWarningsAlertTitle" = "Envío bloqueado";
 "IDScanCaptureSubmitWithWarningsAlertMessage" = "Esta sesión tiene advertencias y la configuración actual no permite el envío con advertencias. Por favor, resuelva las advertencias antes de enviar.";
 
+"IDScanCaptureNotDetectedWarningAlertTitle" = "Documento no detectado";
+"IDScanCaptureNotDetectedWarningAlertMessage" = "No se detectó ningún documento en la foto seleccionada. Aun así se utilizará, pero asegúrese de que sea nítida y muestre el documento completo para evitar problemas durante la verificación.";
+
 "IDScanCaptureResetAlertTitle" = "Restablecer todos los pasos";
 "IDScanCaptureResetAlertMessage" = "¿Está seguro de que desea restablecer todos los pasos?";
 "IDScanCaptureErrorAlertTitle" = "Error";
