@@ -25,6 +25,7 @@
 "IDScanCaptureBackButton" = "Atrás";
 "IDScanCaptureResetStepsButton" = "Restablecer todo";
 "IDScanCaptureRetakeButton" = "Repetir";
+"IDScanCaptureForceCaptureButton" = "Forzar captura";
 
 "IDScanCaptureModeCamera" = "Cámara";
 "IDScanCaptureModeManual" = "Manual";
