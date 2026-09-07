@@ -288,6 +288,16 @@ Each document type in the `documentTypes` array is a dictionary with the followi
       - The name of the step as displayed to the user.
     - **mode**: `Dictionary`
       - Specifies the modes available for capturing the step. Possible modes include `uploader` and `video`.
+    - **delayUntilCaptureButtonVisible**: `Int`
+      - Defines a delay in ms before a capture button becomes visible in the auto capture mode. This button can then be pressed by the end user to force auto capture completion. This configuration is available for document steps only; a configured value has no effect on the face step.
+    - **autocaptureDelay**: `Int`
+      - An integer value can be configured that will delay the autocapture the configured number of milliseconds before trying to capture an image of the ID. This prevents the autocapture mechanism from firing too quickly. Default: 1000
+    - **messageAfterDelay**: `Dictionary`
+      - Configures a Static Message that will be shown to the user after a defined delay in ms. Only for document type steps and not the face. It is a dictionary with the following fields: 
+        - **text**: `String`
+          - The message text to display to the user after the delay has elapsed.
+        - **delay**: `Int`
+          - The delay, in milliseconds, before the message is shown.
 
 ## Example Configuration
 
