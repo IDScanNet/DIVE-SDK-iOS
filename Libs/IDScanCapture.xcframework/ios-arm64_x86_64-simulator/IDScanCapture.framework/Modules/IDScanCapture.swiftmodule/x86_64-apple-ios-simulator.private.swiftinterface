@@ -280,8 +280,14 @@ public protocol ToastView : UIKit.UIView {
 }
 public struct IDScanIDCaptureResult {
   public let frontImage: UIKit.UIImage?
+  public let frontFrameProcessingTimeMs: Swift.Int
+  public let frontTotalStepTimeMs: Swift.Int
   public let backImage: UIKit.UIImage?
+  public let backFrameProcessingTimeMs: Swift.Int
+  public let backTotalStepTimeMs: Swift.Int
   public let faceImage: UIKit.UIImage?
+  public let faceFramesProcessingTimeMs: Swift.Int
+  public let faceTotalStepTimeMs: Swift.Int
   public let trackString: Swift.String?
   public let documentType: Swift.Int
 }

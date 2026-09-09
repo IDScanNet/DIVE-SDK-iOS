@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		fWO3gwHj9I2OdIzYWdJFs7IYWL0=
+		5AP7RfWl2vFH/FrUU+9lOn30XEA=
 		</data>
 		<key>Headers/IDScanCapture-Swift.h</key>
 		<data>
@@ -14,19 +14,19 @@
 		</data>
 		<key>IDCapture.storyboardc/3cT-jd-WOL-view-t0x-Sv-GzK.nib/objects-13.0+.nib</key>
 		<data>
-		Yy/AmOZn+CXzTX4sRcSI5OOXNNs=
+		aH1oWEQdShoHc3v4NiDDjPuTSnQ=
 		</data>
 		<key>IDCapture.storyboardc/3cT-jd-WOL-view-t0x-Sv-GzK.nib/runtime.nib</key>
 		<data>
-		od4U7CrXef8afp3V7SHQEUiXYh0=
+		k1tXfMhh9c9vVdLi7OlSGDGZs0o=
 		</data>
 		<key>IDCapture.storyboardc/6K9-lA-PLf-view-70g-85-FzP.nib/objects-13.0+.nib</key>
 		<data>
-		J+eyxx/oXCrY0luvrlmFsABPL+8=
+		wXWYLblJ9fBds/qC+1c2n2NU5hI=
 		</data>
 		<key>IDCapture.storyboardc/6K9-lA-PLf-view-70g-85-FzP.nib/runtime.nib</key>
 		<data>
-		J+eyxx/oXCrY0luvrlmFsABPL+8=
+		wXWYLblJ9fBds/qC+1c2n2NU5hI=
 		</data>
 		<key>IDCapture.storyboardc/7Pt-NZ-c76-view-aC9-Qu-yfn.nib/objects-13.0+.nib</key>
 		<data>
@@ -114,11 +114,11 @@
 		</data>
 		<key>IDCapture.storyboardc/mmp-Rz-8n7-view-2yZ-wR-vpp.nib/objects-13.0+.nib</key>
 		<data>
-		Eb7d/7stM01Jn1mUfDd+9+hlUdM=
+		J/BdIO+3ZE7miXfE8csICJDM4Ak=
 		</data>
 		<key>IDCapture.storyboardc/mmp-Rz-8n7-view-2yZ-wR-vpp.nib/runtime.nib</key>
 		<data>
-		TnH8hYxmCjujpIeziM1nxr/8zXQ=
+		t/PL4gtwIN+s/1ZApYBmr5S2cqQ=
 		</data>
 		<key>IDCapture.storyboardc/zVC-e0-FnI-view-uav-xq-tyz.nib/objects-13.0+.nib</key>
 		<data>
@@ -130,15 +130,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		dg49Qg4WGnSoGYtbYBbPnC2zt14=
+		ekKGuG+qAWUEVm/iF8lmjF4h2CQ=
 		</data>
 		<key>Modules/IDScanCapture.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		D0Ap2uJ52Lnh1GBSDyIxL3/2aYA=
+		/r+liDU3e79XR09no0N+VRv3ADU=
 		</data>
 		<key>Modules/IDScanCapture.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		4pFSZ/a+ebBioAWYfPx7HQGiUPk=
+		Lh5Lz8P12hs1JN5mCquUtCV+z1g=
 		</data>
 		<key>Modules/IDScanCapture.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -146,19 +146,19 @@
 		</data>
 		<key>Modules/IDScanCapture.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		4pFSZ/a+ebBioAWYfPx7HQGiUPk=
+		Lh5Lz8P12hs1JN5mCquUtCV+z1g=
 		</data>
 		<key>Modules/IDScanCapture.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		vlkCx+Y0mby75OChjInwRWuejHc=
+		zO12ZVOREJTds8kIOrAh2AVBqjo=
 		</data>
 		<key>Modules/IDScanCapture.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		D0Ap2uJ52Lnh1GBSDyIxL3/2aYA=
+		/r+liDU3e79XR09no0N+VRv3ADU=
 		</data>
 		<key>Modules/IDScanCapture.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		OZPHFwJZMXOh6YC+ADqiFhtJ87E=
+		UOU8T8/pq90v4BOHNK0FrR+8sHk=
 		</data>
 		<key>Modules/IDScanCapture.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -166,11 +166,11 @@
 		</data>
 		<key>Modules/IDScanCapture.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		OZPHFwJZMXOh6YC+ADqiFhtJ87E=
+		UOU8T8/pq90v4BOHNK0FrR+8sHk=
 		</data>
 		<key>Modules/IDScanCapture.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LQ7M7HxC6g5lEKZ5e6UdFTXP0AA=
+		dhVR5VNdfgCNtLiSdQzveq/4Nk8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -187,7 +187,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fExQ9lNyI4GsAlRCxs75N7zyTEBE+dMx+bH4xwwcDR4=
+			aLo5rxDoxqvdu28yav0rObu6NXA02w7/98S56j6JAY4=
 			</data>
 		</dict>
 		<key>Headers/IDScanCapture-Swift.h</key>
@@ -201,28 +201,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iC9t3YcjHieTYo9TKE1thS6DWTppqPVj/hxgyS5KoZ8=
+			tEIl3Mnsdb1V9Wq+SL+nD0Z1vapndnebiO0f12ikEJg=
 			</data>
 		</dict>
 		<key>IDCapture.storyboardc/3cT-jd-WOL-view-t0x-Sv-GzK.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7Pi0PmEDsfDBpVuxvZBn/kqOtvTxOOS4t3d+CU6+ACI=
+			Rrud27RwIXQ+5MvobVyCps20Qz5n+rQUvnCsgpKYvpU=
 			</data>
 		</dict>
 		<key>IDCapture.storyboardc/6K9-lA-PLf-view-70g-85-FzP.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5hYaa7NZPmunr+9rD1PBkKTP+TA2eqABDIe+SkHHYHE=
+			OdTo2MqcFEWoGhiB2V5fqihn3Yby2KsSLtvltSCH8IQ=
 			</data>
 		</dict>
 		<key>IDCapture.storyboardc/6K9-lA-PLf-view-70g-85-FzP.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5hYaa7NZPmunr+9rD1PBkKTP+TA2eqABDIe+SkHHYHE=
+			OdTo2MqcFEWoGhiB2V5fqihn3Yby2KsSLtvltSCH8IQ=
 			</data>
 		</dict>
 		<key>IDCapture.storyboardc/7Pt-NZ-c76-view-aC9-Qu-yfn.nib/objects-13.0+.nib</key>
@@ -376,14 +376,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			M7afsZVCOHymoRSysibsW1j/O3ciaoJukzHvVDJwFd4=
+			+vHN+NMEuj3h5FA4BEmuKR0g3mukytcMOGtKYQr/q9o=
 			</data>
 		</dict>
 		<key>IDCapture.storyboardc/mmp-Rz-8n7-view-2yZ-wR-vpp.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			R2VXaqA87ck7xc54e/i+yHt9EX0NhEbkvoAjgw1TQUo=
+			utUH7gpkkKUF2LuUSAs1JHIbABLGPAk0/DFx7O7hdBE=
 			</data>
 		</dict>
 		<key>IDCapture.storyboardc/zVC-e0-FnI-view-uav-xq-tyz.nib/objects-13.0+.nib</key>
@@ -404,14 +404,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tyQGFRvhbrjV+hiSQaQSiFd7M49YsxlaeTqjmseREwk=
+			3MDPR+YtXAuJnRQshQEGLT7q8Fc5mlt4PSuWbY210l0=
 			</data>
 		</dict>
 		<key>Modules/IDScanCapture.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XkL1F0mVk/mvXK5akJRl8kNI8n2Ad7ctAc5oeHWatoI=
+			8vh+lEuLyKVxeszea8lamzPHDLvwL0h/Z85N7CMQL0M=
 			</data>
 		</dict>
 		<key>Modules/IDScanCapture.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -425,28 +425,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XkL1F0mVk/mvXK5akJRl8kNI8n2Ad7ctAc5oeHWatoI=
+			8vh+lEuLyKVxeszea8lamzPHDLvwL0h/Z85N7CMQL0M=
 			</data>
 		</dict>
 		<key>Modules/IDScanCapture.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ao501seR7uT00VX4LGO7eetyiv8dpC5JCGjooLweXdA=
+			/avUwjcQ5jOEXy7hrsg9dvql9bldoCvM/fBkKt5VU80=
 			</data>
 		</dict>
 		<key>Modules/IDScanCapture.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tyQGFRvhbrjV+hiSQaQSiFd7M49YsxlaeTqjmseREwk=
+			3MDPR+YtXAuJnRQshQEGLT7q8Fc5mlt4PSuWbY210l0=
 			</data>
 		</dict>
 		<key>Modules/IDScanCapture.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aGx5TNRQ7t6/j8sJ+IxVewi3DnLOL9RxxBeDAPJ+Ef8=
+			bm1drVH9JJcBYzHFRRo7g7OP12HSiApbKk1hAAkknsg=
 			</data>
 		</dict>
 		<key>Modules/IDScanCapture.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -460,14 +460,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aGx5TNRQ7t6/j8sJ+IxVewi3DnLOL9RxxBeDAPJ+Ef8=
+			bm1drVH9JJcBYzHFRRo7g7OP12HSiApbKk1hAAkknsg=
 			</data>
 		</dict>
 		<key>Modules/IDScanCapture.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gzZdQrIrGW1bkALH/L9ZMf4YTCXWUGVE5bNtp3C+nUU=
+			pl4DqVatFgssZ5Brahn7NUywXpuuq6bfTOszoU9PFJQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
