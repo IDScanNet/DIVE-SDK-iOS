@@ -261,6 +261,18 @@ The `configuration` parameter for `DIVESDK` is a dictionary that defines the set
 - **isShowDocumentTypeSelect**: `Bool`
   - If only one document type is configured in the documentTypes array AND this setting is set to false the document type dialog will not be displayed to the end user. Default: true.
 
+- **playPreviewAnimations**: `Bool`
+  - Enables the automatic playing of the preview animation at the beginning of each step. Default: true.
+
+- **wrapperSettings**: `Dictionary`
+  - A dictionary of settings for the consent form shown before the capture flow starts. It has the following fields:
+    - **showConsentForm**: `Bool`
+      - Shows a consent screen with a checkbox before the first step. Default: false.
+    - **consentText**: `String`
+      - The text of the consent notice displayed on the consent screen.
+    - **checkboxText**: `String`
+      - The label displayed next to the consent checkbox.
+
 - **documentTypes**: `Array<Dictionary>`
   - Defines the types of documents that the SDK should recognize and process. Each document type can have multiple steps for capturing different parts of the document.
 
@@ -307,7 +319,6 @@ let configuration: [String: Any] = [
             "autoStart":false,
             "autoSubmit":false,
             "isShowDocumentTypeSelect":false,
-            "realFaceMode": "auto",
             "documentTypes": [
                 [
                     "isActive": true,
