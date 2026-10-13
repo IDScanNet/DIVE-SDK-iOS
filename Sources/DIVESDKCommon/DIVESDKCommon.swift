@@ -31,12 +31,25 @@ public typealias DIVESDKResult = Result<[String : Any], Error>
     public let trackString: String?
     public let documentType: Int
     
-    public init(frontImage: UIImage? = nil, backImage: UIImage? = nil, faceImage: UIImage? = nil, trackString: String? = nil, documentType: Int) {
+    public let frontFrameProcessingTimeMs: Int
+    public let frontTotalStepTimeMs: Int
+    public let backFrameProcessingTimeMs: Int
+    public let backTotalStepTimeMs: Int
+    public let faceFramesProcessingTimeMs: Int
+    public let faceTotalStepTimeMs: Int
+    
+    public init(frontImage: UIImage? = nil, backImage: UIImage? = nil, faceImage: UIImage? = nil, trackString: String? = nil, documentType: Int, frontFrameProcessingTimeMs: Int, frontTotalStepTimeMs: Int, backFrameProcessingTimeMs: Int, backTotalStepTimeMs: Int, faceFramesProcessingTimeMs: Int, faceTotalStepTimeMs: Int) {
         self.frontImage = frontImage
         self.backImage = backImage
         self.faceImage = faceImage
         self.trackString = trackString
         self.documentType = documentType
+        self.frontFrameProcessingTimeMs = frontFrameProcessingTimeMs
+        self.frontTotalStepTimeMs = frontTotalStepTimeMs
+        self.backFrameProcessingTimeMs = backFrameProcessingTimeMs
+        self.backTotalStepTimeMs = backTotalStepTimeMs
+        self.faceFramesProcessingTimeMs = faceFramesProcessingTimeMs
+        self.faceTotalStepTimeMs = faceTotalStepTimeMs
     }
 }
 
